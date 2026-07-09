@@ -28,6 +28,8 @@ disp('');
 % calculating symmetrical
 I = [];
 I = inv(A) * [Ia;Ib;Ic];
+c = (77.3866+4911i) + (75.7968-3.5081i) + (46.8748+2.2946i);
+disp(inv(A));
 
 % zero sequence
 disp('Zero sequence phasers');
